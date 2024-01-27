@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Регистрация</h1>
+      <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+      <form action="#">
+        <input
+          type="text"
+          name="company"
+          id="company"
+          placeholder="Моя компания"
+          required
+        />
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Имя"
+            pattern="^[a-zA-Zа-яА-ЯёЁ\s]*$"
+            title="Введите корректное имя"
+            required
+          />
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Фамилия"
+            pattern="^[a-zA-Zа-яА-ЯёЁ\s]*$"
+            title="Введите корректную фамилию"
+            required
+          />
+        </div>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          required
+        />
+        <button>Зарегистрироваться &rarr;</button>
+        <div>
+          <input
+            type="checkbox"
+            name="condition_of_use"
+            id="condition_of_use"
+            required
+          />
+          <label for="condition_of_use">
+            Я прочитал и принимаю
+            <a href="#" target="_blank">Условия использования</a>
+          </label>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
