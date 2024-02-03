@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Miro</title>
   </head>
   <body>
@@ -20,11 +21,14 @@
     <main>
       <section>
         <h1>Место для командной работы</h1>
-        <p>
+        <p id="heroParagraph">
           Интерактивная онлайн-доска для совместной работы команд — в любое
           время, в любом месте.
         </p>
-        <form action="/register" method="get"></form>
+        <form action="/register" method="get">
+          <input type="email" name="email" id="email" />
+          <button id="heroButton">Начать бесплатно</button>
+        </form>
         <img src="./images/image_section1.png" alt="preview by Miro" />
       </section>
       <section>
@@ -34,14 +38,18 @@
           может общаться, сотрудничать и совместно заниматься творчеством в
           одном пространстве, из любой точки мира.
         </p>
-        <a href="#">Узнать больше</a>
+        <a href="#" class="bodyLink">Узнать больше</a>
         <img src="./images/image_section2.png" alt="work with Miro" />
       </section>
       <section>
         <img src="./images/image_section3.png" alt="laptop with Miro" />
         <h2>Закройте лишние вкладки — всё уже здесь</h2>
-        <p>Закройте лишние вкладки — всё уже здесь</p>
-        <a href="#">Узнать больше</a>
+        <p>
+          Редактируете ли вы документы в Google Docs, работаете над задачами в
+          Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с
+          уже известными и полюбившимися вам инструментами.
+        </p>
+        <a href="#" class="bodyLink">Узнать больше</a>
       </section>
     </main>
     <footer>
