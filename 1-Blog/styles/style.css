@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+.myBlogLink,
+nav a,
+.inMyBlogLink,
+input::placeholder {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.inMyBlogLink {
+  font-family: "Source Sans Pro", "Open Sans", Roboto, "PT Sans", Arial,
+    Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.myBlogLink,
+.inMyBlogLink {
+  font-size: 18px;
+}
+
+nav a,
+input::placeholder {
+  font-size: 16px;
+}
+
+input {
+  background-color: #1f293699;
+}
+
+.eventDate {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+.aboutAuthor,
+.firstParagraph,
+.secondParagraph,
+.thirdParagraph,
+.aboutAuthorPosition,
+.copyright,
+.eventDate,
+h1 {
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.aboutAuthor,
+.copyright {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.aboutAuthorPosition {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.firstParagraph {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.secondParagraph,
+.thirdParagraph {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.thirdParagraphLink {
+  text-decoration-line: underline;
+}
+
+.aboutAuthorPosition,
+input::placeholder,
+.copyright {
+  opacity: 0.6;
+}
