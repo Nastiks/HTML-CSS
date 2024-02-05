@@ -1,0 +1,60 @@
+* {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: #FFFEFE;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#enter {
+    color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#company::placeholder, input::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#company:focus::placeholder, input:focus::placeholder {
+    color: #333;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button {
+    background: #089FE0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+label {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#terms_of_use {
+    color: #089FE0;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}

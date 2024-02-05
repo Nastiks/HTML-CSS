@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <main>
       <h1>Регистрация</h1>
-      <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+      <p>Уже есть аккаунт? <a href="#" id="enter">Войти</a></p>
       <form action="#">
         <input
           type="text"
@@ -54,7 +55,9 @@
           />
           <label for="condition_of_use">
             Я прочитал и принимаю
-            <a href="#" target="_blank">Условия использования</a>
+            <a href="#" target="_blank" id="terms_of_use">
+              Условия использования
+            </a>
           </label>
         </div>
       </form>
