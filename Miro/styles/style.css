@@ -19,8 +19,14 @@ h2 {
   line-height: 56px;
 }
 
-#heroParagraph {
+#heroParagraph,
+#underButtonText {
   color: #050038;
+}
+
+#underButtonText {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 p {
