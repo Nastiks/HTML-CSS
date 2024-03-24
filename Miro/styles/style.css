@@ -36,7 +36,8 @@ p,
   line-height: 24px;
 }
 
-div {
+.footerNote,
+.footerNote a {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
