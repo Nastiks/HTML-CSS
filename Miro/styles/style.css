@@ -2,14 +2,30 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 #heroButton {
   background-color: #4262ff;
   color: #fff;
+  height: 48px;
+  border-radius: 32px;
+  border: 1px solid #4262ff;
+  padding: 10px 20px;
 }
 
 .bodyLink {
   color: #4262ff;
   font-size: 18px;
+}
+
+h1 {
+  margin: 0 0 17px 0;
+}
+
+h2 {
+  margin: 0 0 19px 0;
 }
 
 h1,
@@ -27,6 +43,7 @@ h2 {
 #underButtonText {
   font-size: 14px;
   line-height: 20px;
+  margin: 8px 0 52px 0;
 }
 
 p,
@@ -50,10 +67,38 @@ header a {
   text-decoration: none;
 }
 
+nav {
+  padding: 33px 50px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
 nav ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .sectionList li::marker {
   content: url("../images/check.svg");
+}
+
+.sectionText {
+  margin: 0 0 40px 0;
+}
+
+#heroParagraph {
+  margin: 0 0 55px 0;
+}
+
+#email {
+  border-radius: 32px;
+  border: 1px solid #9b99af;
+  height: 36.4px;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: #050038;
+  padding: 47px 40px;
 }
