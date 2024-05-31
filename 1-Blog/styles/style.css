@@ -1,6 +1,8 @@
 body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   margin: 0;
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -60,18 +62,6 @@ input::placeholder {
   font-size: 14px;
   opacity: 0.6;
   margin: 0 0 14px 630px;
-}
-
-.aboutAuthorName,
-.firstParagraph,
-.secondParagraph,
-.thirdParagraph,
-.aboutAuthorPosition,
-.copyright,
-.eventDate,
-h1 {
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .aboutAuthorName,
