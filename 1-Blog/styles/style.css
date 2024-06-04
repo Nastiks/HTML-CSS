@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 80px 0 80px 192px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  width: 525px;
+  text-align: center;
+  margin: 0 0 30px 458px;
+}
+
+nav a,
+input::placeholder {
+  font-size: 16px;
+}
+
+input {
+  background-color: #1f293699;
+  height: 40px;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+.myBlogLink,
+nav a,
+.inMyBlogLink,
+input::placeholder {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.inMyBlogLink {
+  font-family: "Source Sans Pro", "Open Sans", Roboto, "PT Sans", Arial,
+    Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.myBlogLink,
+.inMyBlogLink {
+  font-size: 18px;
+}
+
+.eventDate {
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 0 0 14px 630px;
+}
+
+.aboutAuthorName,
+.copyright {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.aboutAuthorPosition {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.firstParagraph {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 0;
+}
+
+.secondParagraph,
+.thirdParagraph {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.thirdParagraphLink {
+  text-decoration-line: underline;
+}
+
+.aboutAuthor {
+  margin: 0 0 28px 640px;
+}
+
+.aboutAuthorPosition,
+input::placeholder,
+.copyright {
+  opacity: 0.6;
+}
+
+.mainImage {
+  margin: 0 0 69px 272px;
+}
+
+.mainTextOfArticle {
+  width: 708px;
+  margin: 0 0 103px 366px;
+}
+
+.copyright {
+  margin: 0 0 77px 607px;
+}
