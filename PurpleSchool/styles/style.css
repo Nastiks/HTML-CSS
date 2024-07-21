@@ -1,24 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2e2d3d;
+}
+
 main {
-    background-color: #1E1F29;
+  background-color: #1e1f29;
+  border-radius: 10px;
+  padding: 48px;
 }
 
 h1 {
-    color: #FAFAFA;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: 'Fira Sans', monospace;
+  color: #fafafa;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Fira Sans", monospace;
+  width: 527px;
+  height: 43px;
+  text-align: center;
+  margin: 0 0 32px 0;
 }
 
-input, textarea, select {
-    background-color: #2E2D3D;
-    color: #FAFAFA;
+input,
+textarea,
+select {
+  background-color: #2e2d3d;
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: "Fira Sans", monospace;
+  padding: 27px 48px 12px;
+  border-radius: 10px;
+  border: none;
 }
 
 label {
-    color: #AFB2BF;
+  position: absolute;
+  top: 12px;
+  left: 48px;
+  color: #afb2bf;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.field img {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+}
+
+input:placeholder,
+textarea:placeholder,
+select:placeholder {
+  color: #1e1f29;
+  font-size: 16px;
+}
+
+.field {
+  margin-bottom: 16px;
+  position: relative;
 }
 
 button {
-    background-color: #6C38CC;
-    color: #FAFAFA;
+  background-color: #6c38cc;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
 }
