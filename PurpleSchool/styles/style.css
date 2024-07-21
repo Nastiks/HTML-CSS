@@ -4,6 +4,10 @@ body {
   background-color: #2e2d3d;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 main {
   background-color: #1e1f29;
   border-radius: 10px;
@@ -33,6 +37,7 @@ select {
   padding: 27px 48px 12px;
   border-radius: 10px;
   border: none;
+  width: 100%;
 }
 
 label {
